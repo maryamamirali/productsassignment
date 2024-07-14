@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+background-color: #f4f4f4;
+}
+
+/*product page*/
+
+.boxes{
+  border: 2px solid black;
+  padding: 16px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+.boxes:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav{
+background-color: #333;
+padding: 20px;
+display: flex;
+gap: 80px;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.singleproduct{
+padding: 8px;
+border-radius: 6px;
+background-color: #333;
+border: 1px solid white;
+margin-left:400px;
+
+}
+
+.singleproduct :hover {
+background-color: #212020;
+}
+
+.box{
+  border: 1px solid #ff6600;
+  margin: 30px;
+  padding: 2px;
+}
+
+/*single product page*/
+
+.img{
+border: 0 solid #333;
+padding: 12px;
+width: 20%;
+border-radius: 20px;
+margin: 22px;
+}
+
+.model{
+  border: 0 solid #ff6600;
+  margin: 23px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.img{
+  padding: 12px;
+  margin: 22px;
+font-size: 10%;
+}
+
+body{
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav{
+background-color: #333;
+padding: 20px;
+display: flex;
+gap: 80px;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.singleproduct{
+padding: 8px;
+border-radius: 6px;
+background-color: #333;
+border: 1px solid white;
+margin-left:400px;
+
+}
+
+.singleproduct :hover {
+background-color: #212020;
+}
+
+.dashboard{
+  display: flex;
+  height: 100vh;
+}
+
+.heading{
+  background-color: #ffffff;
+  padding: 1px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+a:hover{
+  text-decoration: none;
+}
+
+.navbutton{
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #333;
+  border: 1px solid white;
+  
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  margin-top: 0;
+  font-size: 22px;
+  color: #2f3542;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+.backbtn{
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #d8d9db;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    }
+    
+.backbtn:hover {
+    background-color: #858484;
+    }
+
+
+  .details {
+
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
